@@ -182,8 +182,8 @@ TextFormatFlags.VerticalCenter
         }
         public int move_distance { get; set; }
         public int played_comments { get; set; }
-
-        public int current_time
+        private int current_time;
+        public int Setcurrent_time
         {
             get { return current_time; }
             set
